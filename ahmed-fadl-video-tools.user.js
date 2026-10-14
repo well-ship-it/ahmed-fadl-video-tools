@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Ahmed Fadl – Video Tools
-// @namespace    https://github.com/GH_USER/ahmed-fadl-video-tools
+// @namespace    https://github.com/well-ship-it/ahmed-fadl-video-tools
 // @version      1.0.0
 // @description  Video statistics and convenience tools for course videos.
 // @match        https://www.ahmed-fadl.com/watch_video.php?video_id=*&course_id=*
@@ -11,15 +11,15 @@
 // @connect      www.ahmed-fadl.com
 // @connect      ahmed-fadl.com
 // @license      MIT
-// @updateURL    https://raw.githubusercontent.com/GH_USER/ahmed-fadl-video-tools/main/ahmed-fadl-video-tools.user.js
-// @downloadURL  https://raw.githubusercontent.com/GH_USER/ahmed-fadl-video-tools/main/ahmed-fadl-video-tools.user.js
+// @updateURL    https://raw.githubusercontent.com/well-ship-it/ahmed-fadl-video-tools/main/ahmed-fadl-video-tools.user.js
+// @downloadURL  https://raw.githubusercontent.com/well-ship-it/ahmed-fadl-video-tools/main/ahmed-fadl-video-tools.user.js
 // ==/UserScript==
 
 (function () {
   'use strict';
 
   const CONFIG_URL =
-    'https://raw.githubusercontent.com/GH_USER/ahmed-fadl-video-tools/main/config.json';
+    'https://raw.githubusercontent.com/well-ship-it/ahmed-fadl-video-tools/main/config.json';
   const PROGRESS_URL =
     'https://www.ahmed-fadl.com/update_video_progress.php';
   const LOCAL_KEY = 'ahmedFadlVideoToolsDisabled';
@@ -381,4 +381,4 @@
     log('Startup failure:', error);
     stop('حدث خطأ أثناء تشغيل السكريبت');
   });
-})();
+})();
